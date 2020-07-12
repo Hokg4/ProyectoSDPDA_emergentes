@@ -58,7 +58,7 @@ public class MainController extends HttpServlet {
                     lista.add(lib);
                 }
                 request.setAttribute("lista", lista);
-                request.getRequestDispatcher("index.jsp").forward(request, response);
+                request.getRequestDispatcher("paginaprincipal.jsp").forward(request, response);
 
             } catch (SQLException ex) {
                 System.out.println("Error en sql:" + ex.getMessage());
