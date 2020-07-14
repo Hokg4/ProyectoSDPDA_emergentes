@@ -49,7 +49,7 @@ public class MainControllerUs extends HttpServlet {
                 }
 
                 request.setAttribute("lista", lista);
-                request.getRequestDispatcher("indexprueba.jsp").forward(request, response);
+                request.getRequestDispatcher("PerfilUsuario.jsp").forward(request, response);
             } catch (SQLException ex) {
                 System.out.println("error en SQL " + ex.getMessage());
             } finally {
