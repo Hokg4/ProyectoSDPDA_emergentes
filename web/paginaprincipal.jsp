@@ -30,17 +30,17 @@
                 <ul class="list-unstyled full-width menu-mobile-c">
 
                     <li>
-                        <a href="MainController?op=nuevo">
+                        <a href="PanelRequisitosAnuncio.jsp">
                             <i class="fa fa-pencil-square-o fa-fw hidden-md hidden-lg" aria-hidden="true"></i>PUBLICA TU ANUNCIO
                         </a>
                     </li>
                     <li>
-                        <a href="login.jsp">
+                        <a href="LoginControlador">
                             <i class="fa fa-object-group fa-fw hidden-md hidden-lg" aria-hidden="true"></i> LOGIN
                         </a>
                     </li>
                     <li>
-                        <a href="registro.jsp">
+                        <a href="MainControllerUs?op=nuevo">
                             <i class="fa fa-commenting-o fa-fw hidden-md hidden-lg" aria-hidden="true"></i> REGISTRO
                         </a>
                     </li>
