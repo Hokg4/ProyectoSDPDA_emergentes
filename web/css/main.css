@@ -99,6 +99,7 @@ a:active{
 	margin-top: 10px;
 	display: none;
 }
+.bt2{padding:6px;border-radius:10px;}
 /*====Barra de navegacion==*/
 .NavBar,
 .NavBar-logo,
@@ -403,7 +404,7 @@ login.html & newaccount.html*/
 /*============================
 ==================index.html*/
 .header-index{
-	background: url(../assets/img/fondop.jpg) #fff no-repeat bottom left;
+	background: url(../assets/img/fot.jpg) #fff no-repeat bottom left;
 	background-size: cover;
 	min-height: 200px;
 	padding: 200px 0;

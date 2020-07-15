@@ -58,9 +58,17 @@
         
         
         <div>
-            <h1 class="full-width text-semi-bold ">
+            <div>
+            <section class="section">
+       
+            <h1 class="text-center text-light">
 		INFO ANUNCIO
             </h1>
+                        
+        <div class="container">
+	<div class="row">
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1" align="center" style="border: 1px solid #E1E1E1;">
+            
             
             <c:forEach var="item" items="${Anunc}">
 
@@ -77,7 +85,7 @@
                 <h3>${item.fecha}</h3>
                 
                 
-                <h5><a href="">Consulta al vendedor</a></h5>
+                <h5><a href="https://vilmanunez.com/crear-enlace-whatsapp/">Consulta al vendedor</a></h5>
                 
                 <h5><a href="MainController">Volver</a></h5>
 
@@ -85,6 +93,9 @@
             </c:forEach>   
             <br>
         </div>
+             </div>
+             </div>
+            
 
     </body>
 </html>
