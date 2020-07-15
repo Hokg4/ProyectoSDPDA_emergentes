@@ -16,21 +16,21 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-@WebServlet(name = "LoginControlador", urlPatterns = {"/LoginControlador"})
-public class LoginControlador extends HttpServlet {
+@WebServlet(name = "LoginControladorAd", urlPatterns = {"/LoginControladorAd"})
+public class LoginControladorAd extends HttpServlet {
 
  @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String action = (request.getParameter("action") == null) ? "view" : request.getParameter("action");
         if (action.equals("view")) { 
-            response.sendRedirect("login.jsp");
+            response.sendRedirect("loginAd.jsp");
         }
         if(action.equals("logout"))
         {   
           HttpSession ses = request.getSession();
           ses.invalidate();
-          response.sendRedirect("login.jsp");
+          response.sendRedirect("loginAd.jsp");
         }
     }
     @Override
@@ -53,10 +53,10 @@ public class LoginControlador extends HttpServlet {
                 HttpSession ses = request.getSession();
                 ses.setAttribute("logueado","OK");
                 ses.setAttribute("usuario",usuario);
-                response.sendRedirect("MainControllerUs");
+                response.sendRedirect("MainControllerAd");
             }
             else{
-                response.sendRedirect("login.jsp");
+                response.sendRedirect("loginAd.jsp");
             }   
         } catch (SQLException ex) {
             System.out.println("falla al abrir la base de datos"+ ex.getMessage());

@@ -10,7 +10,7 @@
     <body>
         <section>
             <h1>LOGIN</h1>
-            <form action="LoginControlador" method="post">
+            <form action="LoginControladorAd" method="post">
                 <label>USUARIO</label>
                 <input type="text" name="ci">
                 <label>PASSWORD</label>
@@ -20,8 +20,8 @@
             
         </section>
         
-        <p>usuario: 124578 contraseña: jhovanna</p>
-        
+       
+        <p>admi usuario : 75199 contraseña: heber</p>
     </body>
 </html>
 

@@ -45,8 +45,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.jsp">
-                            <i class="fa fa-commenting-o fa-fw hidden-md hidden-lg" aria-hidden="true"></i>TU PERFIL
+                        <a href="LoginControladorAd">
+                            <i class="fa fa-commenting-o fa-fw hidden-md hidden-lg" aria-hidden="true"></i>MIS ANUNCIOS
                         </a>
                     </li>
                 </ul>
